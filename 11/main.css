@@ -1,0 +1,280 @@
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+    body {
+    background-color:white;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*网页居中容器样式设定*/
+
+#wrap {
+    margin: 0 auto;
+    height: 90px;
+    width: 970px;
+}
+
+
+/*顶部通栏广告样式设定*/
+
+.top-ad {
++    margin-bottom: 10px;
++}
+
+    margin-top: 3px;
+
+/*顶部导航条样式设定*/
+
+#nav {
+    border-bottom: 10px #9E2F50 solid;
+    padding-bottom: 10px;
+}
+
+#nav p {
+    color: #A7A59B;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#nav img {
+    display: block;
+    width: 172px;
+    height: 36px;
+    float: left;
+}
+
+#nav div:last-child {
+    /*background-color: red;*/
+    float: right;
+}
+
+#nav div:last-child p {
+    text-align: right;
+}
+
+#nav h1 {
+    font-family: simhei;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+   width: 150px;
+   clear:both;
+        anmation: run  ease-in-out 9s infinite;
+   -moz-animation: run  ease-in-out 9s infinite ;    
+-webkit-animation: run  ease-in-out 9s infinite;    
+-ms-animation: run  ease-in-out 9s infinite;    
+
+     -o-animation: run  ease-in-out 9s infinite;}
+     
+
+
+#nav p a {
+    color: #4D8BB8;
+    text-decoration: none;
+}
+
+#nav form p {
+    float: left;
+}
+
+.menu ul {
+    background-color: lightgray;
+margin:0;
+padding:0;}
+
+
+.menu li {
+    display: block;
+    float: left;
+    width: 95px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    border-right:1px solid #666666;
+    float: left;list-style: none;
+border-top:1px solid #666666;
+border-left:1px solid #666666;
+border-bottom:1px solid #666666;
+    width: 95px;
+background: olive;
+}
+
+
+.menu a {
+    color: black;
+    /*display: block;*/
+    text-decoration: none;
+    padding: 1px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #A7A59B;
+    border: 1px #A7A59B solid;
+    border-radius: 5px;
+}
+
+
+/*主体部分样式*/
+
+.left {
+    width: 620px;
+    float: left;
+    border-right: 1px #F6E9D8 solid;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.aside {
+    width: 339px;
+    float: left;
+}
+
+.published-time {
+   color: #9E2F50;
+    margin: 18px 0;
+    font-weight: bold;
+}
+
+.left h1 {
+    font-size: 25px;
+    font-family: "Microsoft Yahei", "monospace";
+    font-weight: bold;
+   margin-bottom: 15px;
+}
+
+.author {
+    color: #A7A59B;
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.bdsharebuttonbox {
+    float: right;
+}
+
+.content p {
+    text-indent: 2em;
+    font-size: 17px;
+    line-height: 1.5;
+   margin: 8px 0;
+}
+
+.content .first-p {
+    text-indent: 0;
+}
+
+.first-p:first-letter {
+    color: block;
+    font-size: 48px;
+    display: block;
+    float: left;
+    margin: 0 8px 8px 0;
+}
+
+.content p.img {
+    text-align: center;
+    text-indent: 0;
+}
+.aside-ad {
+    width: 320px;
+   height: 270px;
+    background-color: gray;
+    padding-top: 10px;
+   position: relative;
+   resize: vertical;
+    overflow: auto;
+    text-align: center;
+}
+
+.aside-ad img {
+    display: block;
+    position: absolute;
+    
+    resize: vertical;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.aside-ad img {transform: rotate(0 0);}
+
+.aside-ad img:hover{transform: rotate(720deg); }
+.letter{clear: both;
+margin: 0 1px 1px;
+border-top: 8px solid orange;
+overflow: hidden;}
+    
+ ol{list-style-type: li;
+     list-style-position: inside;
+     line-height: 32px;
+     text-align: center;}
+     .more-topics {
+    float: right;
+    font-size: 14px;}
+  #footer ul li a {
+    color: red;
+    margin: 0 0 0 .20em;
+    font-size: 14px;
+    line-height: 1;
+    padding:0 0 0 10em;
+}  #footer span {
+    color: #999;
+    font-size: 14px;
+    line-height: 1;
+}
+
+
